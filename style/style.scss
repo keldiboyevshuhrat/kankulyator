@@ -1,0 +1,233 @@
+.kankulyator {
+    width: 800px;
+    height: 1000px;
+    // border: 2px solid black;
+    margin: auto;
+    border-radius: 20px;
+    background-color: rgb(44, 44, 44);
+
+
+    .kankulyator1 {
+        width: 740px;
+        height: 100px;
+        // border: 2px solid black;
+        padding-top: 50px;
+        margin-left: 30px;
+        border-radius: 20px;
+
+
+
+        input {
+            width: 730px;
+            height: 100px;
+            border-radius: 20px;
+            background-color: rgb(139, 139, 139);
+            box-shadow: 15px 15px 40px black inset;
+
+            border-width: 0px;
+            text-align: right;
+            color: black;
+            font-size: 70px;
+            font-weight: 600;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+        }
+
+
+
+
+
+    }
+
+
+    // 2-row-qator
+
+
+    .kankulyator2 {
+        width: 730px;
+        height: 760px;
+        // border: 2px solid rgb(0, 0, 0);
+        padding-top: 100px;
+        padding-left: 30px;
+
+
+        .tugma-turuvshi1 {
+            width: 730px;
+            height: 150px;
+            // border: 2px solid white;
+            display: flex;
+            margin-top: -10px;
+
+            .kankulyator2-1tugma-clear {
+                width: 340px;
+                height: 100px;
+                // border: 2px solid white;
+                margin-top: 25px;
+                box-shadow: 5px 5px 10px white;
+                border-radius: 20px;
+                font-size: 80px;
+                text-align: center;
+                font-weight: 900;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                color:white;
+                background-color: red;
+            }
+            .kankulyator2-1tugma-clear:active{
+                box-shadow: none;
+                background-color: red;
+
+            }
+
+
+
+            .kankulyator2-1tugma {
+                width: 170px;
+                height: 100px;
+                // border: 2px solid wheat;
+                margin-left: 20px;
+                margin-top: 25px;
+                box-shadow: 5px 5px 10px white;
+                border-radius: 20px;
+                font-size: 80px;
+                text-align: center;
+                font-weight: 900;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                color:white;
+                background-color:rgb(71, 69, 69);
+            }
+            .kankulyator2-1tugma:active{
+                box-shadow: none;
+                background-color:rgb(119, 114, 114);
+            }
+
+
+
+            .kankulyator2-1tugma-1row {
+                width: 170px;
+                height: 100px;
+                // border: 2px solid wheat;
+                margin-top: 25px;
+                box-shadow: 5px 5px 10px white;
+                border-radius: 20px;
+                font-size: 80px;
+                text-align: center;
+                font-weight: 900;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                color:white;
+                background-color:rgb(71, 69, 69);
+            }
+            .kankulyator2-1tugma-1row:active{
+                box-shadow: none;
+                background-color:rgb(138, 130, 130);
+
+
+            }
+        }
+
+
+
+
+
+
+        .kankulyator-ichki {
+            width: 730px;
+            height: 280px;
+            // border: 2px solid white;
+            display: flex;
+            margin-top:-20px;
+
+            .tugma-turuvshi1-ichki {
+                width: 540px;
+                height: 100px;
+                // border: 2px solid wheat;
+                display: flex;
+                padding-top: 35px;
+
+
+
+                .kankulyator2-1tugma {
+                    width: 190px;
+                    height: 100px;
+                    // border: 2px solid wheat;
+                    margin-left: 20px;
+                    box-shadow: 5px 5px 10px white;
+                    border-radius: 20px;
+                    font-size: 80px;
+                    text-align: center;
+                    font-weight: 900;
+                    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                    color:white;
+                   background-color: rgb(58, 57, 57);
+
+                }
+                .kankulyator2-1tugma:active{
+                    box-shadow: none;
+                   background-color: rgb(143, 135, 135);
+
+                }
+
+                .kankulyator2-1tugma-1row {
+                    width: 190px;
+                    height: 100px;
+                    // border: 2px solid wheat;
+                    box-shadow: 5px 5px 10px white;
+                    border-radius: 20px;
+                    font-size: 80px;
+                    text-align: center;
+                    font-weight: 900;
+                    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                    color:white;
+                   background-color: rgb(58, 57, 57);
+
+                   
+
+                }
+                .kankulyator2-1tugma-1row:active{
+                    box-shadow: none;
+                   background-color: rgb(143, 135, 135);
+
+                }
+
+
+
+            }
+
+            .kankulyator-pilus {
+                width: 160px;
+                height: 230px;
+                // border: 2px solid wheat;
+                margin-left: 40px;
+                margin-top: 35px;
+                box-shadow: 5px 5px 10px white;
+                border-radius: 20px;
+                font-size: 80px;
+                text-align: center;
+                font-weight: 900;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                color:white;
+                background-color: rgb(0, 255, 64);
+
+                p{
+                    margin-top:60px
+                }
+            }
+            .kankulyator-pilus:active{
+                background-color: rgb(96, 190, 120);
+                box-shadow: none;
+
+            }
+
+
+
+
+
+        }
+
+    }
+
+
+
+
+
+}

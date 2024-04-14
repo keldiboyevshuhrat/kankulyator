@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+
+
+    <form class="kankulyator" name="calc">
+        <div class="kankulyator1">
+            <input type="text" class="value" name="name" disabled placeholder="kankulyator">
+        </div>
+        <div class="kankulyator2">
+            <div class="tugma-turuvshi1">
+                <div class="kankulyator2-1tugma-clear" onclick="calc.name.value=' '">clear</div>
+                <div class="kankulyator2-1tugma" onclick="document.calc.name.value+='/'">/</div>
+                <div class="kankulyator2-1tugma">*</div>
+            </div>
+            <!-- 2-row -->
+
+            <div class="tugma-turuvshi1">
+                <div class="kankulyator2-1tugma-1row" onclick="document.calc.name.value+='7'">7</div>
+                <div class="kankulyator2-1tugma" onclick="document.calc.name.value+='8'">8</div>
+                <div class="kankulyator2-1tugma" onclick="document.calc.name.value+='9'">9</div>
+                <div class="kankulyator2-1tugma" onclick="document.calc.name.value+='-'">-</div>
+
+            </div>
+
+            <!-- 3-row -->
+            <div class="kankulyator-ichki">
+                <div>
+                    <div class="tugma-turuvshi1-ichki">
+                        <div class="kankulyator2-1tugma-1row" onclick="document.calc.name.value+='4'">4</div>
+                        <div class="kankulyator2-1tugma" onclick="document.calc.name.value+='5'">5</div>
+                        <div class="kankulyator2-1tugma" onclick="document.calc.name.value+='6'">6</div>
+                    </div>
+                    <div class="tugma-turuvshi1-ichki">
+                        <div class="kankulyator2-1tugma-1row"  onclick="document.calc.name.value+='1'">1</div>
+                        <div class="kankulyator2-1tugma" onclick="document.calc.name.value +='2'">2</div>
+                        <div class="kankulyator2-1tugma" onclick="document.calc.name.value +='3'">3</div>
+                    </div>
+                </div>
+                <div class="kankulyator-pilus">
+                    <p onclick="document.calc.name.value +='+'">+</p>
+                </div>
+            </div>
+
+
+            <!-- 3-row -->
+
+            <div class="tugma-turuvshi1">
+                <div class="kankulyator2-1tugma-1row" onclick="document.calc.name.value +='0'">0</div>
+                <div class="kankulyator2-1tugma" onclick="document.calc.name.value +='00'">00</div>
+                <div class="kankulyator2-1tugma" onclick="document.calc.name.value +='.'">.</div>
+                <div class="kankulyator2-1tugma" onclick="document.calc.name.value=eval(document.calc.name.value)">=</div>
+
+            </div>
+
+
+
+        </div>
+
+
+
+    </form>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
